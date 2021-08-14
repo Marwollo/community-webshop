@@ -1,0 +1,51 @@
+.navigacija {
+    display: flex;
+}
+
+.navigacija-cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+
+.navigacija-anchor {
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    flex: 1;
+}
+
+.navigacija-dugme {
+    display: flex;
+    justify-content: center;
+
+    background-color: #fefefe;
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px 2px #00000022;
+    flex: 1;
+}
+
+.navigacija-tekst {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+    .navigacija {
+        flex-direction: column;
+    }
+}
+
+.sesija-info {
+    font-weight: 500;
+}
+
+.shopping-cart {
+    width: 42px;
+    margin-top: 24px;
+}

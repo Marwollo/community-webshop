@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `orders`(
+    `id` INT PRIMARY KEY AUTO_INCREMENT,
+    `order_date` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    `order_address` VARCHAR(255) NOT NULL,
+    `order_client` INT NOT NULL,
+    FOREIGN KEY (`order_client`) REFERENCES `users` (`id`) ON DELETE CASCADE
+);

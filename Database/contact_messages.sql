@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `contact_messages` (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    first_name VARCHAR(255) NOT NULL,
+    last_name VARCHAR(255) NOT NULL,
+    phone VARCHAR(255) NOT NULL,
+    content VARCHAR(255) NOT NULL
+);

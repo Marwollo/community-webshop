@@ -1,0 +1,45 @@
+.sesija-info {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    padding-left: 14px;
+    padding-top: 14px;
+}
+
+.order-form {
+    max-width: 400px;
+    width: 100%;
+    align-self: center;
+    margin-top: 16px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-image: url("https://i.pinimg.com/originals/62/63/5b/62635bfd6f5c20e3666f27e015191bde.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: column;
+}
+#sidebar {
+  height: 250px;
+  width: 10px;
+  position: fixed;
+  text-align: center;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+p i {
+  left: 30px;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 24px;
+}
+
