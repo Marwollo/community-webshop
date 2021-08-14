@@ -3,7 +3,6 @@
     use PDO;
 
     abstract class Config {
-        const URL = "localhost";
         const HOST = "localhost";
         const DB_NAME = "furnifuture";
         const CHARSET = "utf8mb4";
